@@ -2,6 +2,7 @@ import React from "react";
 import servicedetails1 from "@/images/services/Herd-Backofen-Reparatur.jpg";
 import Img from "./img";
 import { useRouter } from "next/router";
+import Link from "@/components/link";
 
 const SERVICE_CONTENT = {
   "herd-backofen-reparatur": {
@@ -136,7 +137,7 @@ const ServicePost = () => {
       </ul>
       <p className="extra_mr">
         Wenn eines Ihrer Geräte plötzlich ausfällt oder Fehlermeldungen zeigt,{" "}
-        <a href="/contact">kontaktieren Sie uns</a> für eine schnelle Diagnose
+        <Link href="/contact">kontaktieren Sie uns</Link> für eine schnelle Diagnose
         und einen kurzfristigen Termin.
       </p>
       <h2>Reparatur oder Neukauf – was lohnt sich?</h2>
@@ -158,7 +159,7 @@ const ServicePost = () => {
         </li>
       </ul>
       <p className="info_mr">
-        Nutzen Sie unser <a href="/contact">Kontaktformular</a>, um uns Ihr
+        Nutzen Sie unser <Link href="/contact">Kontaktformular</Link>, um uns Ihr
         Problem zu schildern – wir melden uns mit einem unverbindlichen
         Vorschlag zur weiteren Vorgehensweise.
       </p>
